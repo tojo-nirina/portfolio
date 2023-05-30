@@ -1,0 +1,957 @@
+@font-face {
+    font-family: 'Poppins';
+    src:  url(../fonts/Popins/Poppins-Light.ttf),
+    url(../fonts/Popins/Poppins-ExtraLight.ttf);
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1A1A29;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffff;
+    font-family: "Poppins";
+    font-style: normal;
+}
+p {
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+}
+section {
+    padding: 0 136px;
+}
+header {
+    width: 100%;
+    height: 80px;
+    background: #181824;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+nav {
+    padding: 19px 160px;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+nav .name {
+    width: 196px;
+    height: 42px;
+    color: #7562E0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 450px;
+}
+.menu li a {
+    color: #ffff;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+.menu li a:hover {
+    color: #7562E0;
+}
+/* **********corps de page********* */
+#home {
+    padding: 0 111px 0 136px;
+}
+#home {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#home .hello {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+#home h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 78px;
+    color: #F5F5F5;
+}
+#home a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+#home .presentation p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    width:447px ;
+}
+#home .my-profil img {
+    position: absolute;
+    width: 444px;
+    height: 444px;
+    right: 0px;
+    top: -40px;
+}
+#home .button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#home .button .btn-secondary {
+    background: none;
+    border: 2px solid #7562E0;
+    border-radius: 8px;
+}
+#home .epilise {
+    position: relative;
+    width: 486px;
+    height: 486px;
+    right: 52px;
+    top: 40px;
+    background: #7562E0;
+    border-radius: 100%;
+}
+#home .about-me-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 30px;
+    gap: 10px;
+    width: 40%;
+    height: 48px;
+    background: #7562E0;
+    border-radius: 8px;
+    margin-top: 39px;
+}
+#home .about-me-button img {
+    width: 24px;
+}
+/* rectangle */
+.rectangle {
+    position: absolute;
+    width: 100%;
+    height: 128px;
+    left: 0;
+    top: 643px;
+    background: #181824;
+}
+/***About me***/
+#about {
+    position: relative;
+    top: 125px;
+}
+#about .about-me {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #7562E0;
+}
+#about  p{
+    margin-top: 10px;
+}
+#about .five-experience {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+#about .five-experience .five {
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 144px;
+    color: #7562E0;
+}
+#about .five-experience p {
+    font-size: 24px;
+    line-height: 36px;
+}
+.frame {
+    position: relative;
+    top: 140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.frame .column {
+    position: relative;
+    width: 100%;
+    height: 254px;
+    left: 0;
+    top: 0;
+    background: #BDBDBD;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 32px;
+}
+.frame .column-1 {
+    background: #7562E0;
+}
+.frame .column img{
+    margin-top: 64px;
+}
+.frame .text{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+/**********service*********/
+.service {
+    position: relative;
+    top: 200px;
+}
+.title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #7562E0;
+}
+.service .frame-2 {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 338px;
+    border: 3px solid #F5F5F5;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
+    border-radius: 16px;
+    padding: 60px 30px;
+}
+.service .frame-border-primary {
+    border: 3px solid #7562E0;
+}
+.service .frame-2 .small-title {
+    font-weight: 600;
+    font-size: 24px;
+}
+.service .frame-2 .small-title-1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 75px;
+    color: #7562E0;
+}
+.service .frame-2 .small-title-2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.service .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 30px;
+}
+/******projects*****/
+#projects {
+    position: relative;
+    top: 270px;
+}
+#projects p{
+    margin-top: 10px;
+}
+.my-project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 36px;
+    gap: 20px;
+}
+.rectangle-project {
+    width: 100%;
+    padding: 25px;
+    background: #31313F;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+.rectangle-project img {
+    width: 100%;
+}
+.rectangle-project a {
+    font-size: 14px;
+}
+.rectangle-project .btn1, .btn2 {
+    width: 100%;
+    height: 43px;
+}
+.rectangle-project .button {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.rectangle-project button {
+    background: #7562E0;
+    border-radius: 8px;
+    border: none;
+}
+.rectangle-project .btn2 {
+    background: none;
+    border: 2px solid #7562E0;
+}
+.rectangle-project .btn1 a {
+    font-weight: 600;
+    line-height: 24px;
+}
+.title-projects {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #7562E0;
+}
+/*****contact*****/
+#contact {
+    padding: 2px 220px 0 136px;
+    position: relative;
+    top: 358px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-me {
+    width: 45%;
+}
+form {
+    gap: 16px;
+}
+#contact input {
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 16px;
+    padding: 15px;
+    background: #31313F;
+    border: none;
+}
+#contact .submit {
+    width: 40%;
+    background: #7562E0;
+}
+#contact textarea {
+    width: 100%;
+    height: 98px;
+    border-radius: 8px;
+    margin-top: 16px;
+    padding: 15px;
+    background: #31313F;
+    border: none;
+}
+#contact label {
+    position: absolute;
+    top: 60px;
+}
+.icon {
+    display: flex;
+    gap: 16px;
+    margin-top: 14px;
+}
+.icon img{
+    width: 32px;
+    height: 32px;
+}
+input::placeholder {
+    font-weight: 600;
+}
+textarea::placeholder {
+    font-weight: 600;
+    margin-top: 20px;
+}
+/******footer*****/
+footer {
+    position: relative;
+    top: 500px;
+    padding: 0 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .liste {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.small-paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+/***toggle***/
+.toggle {
+    display: none;
+}
+/*****************responsive***********/
+@media screen and (max-width: 1920px) {
+    nav {
+        padding: 19px 190px;
+    }
+    p {
+        font-size: 15px!important;
+    }
+    #home {
+        padding: 0 130px 0 190px;
+    }
+    section {
+        padding: 0 190px;
+    }
+    #contact {
+        padding: 0 270px 0 190px;
+    }
+    footer {
+        padding: 0 190px;
+    }
+    .rectangle-project {
+        padding: 30px;
+    }
+    #home h1 {
+        font-size: 48px;
+    }
+    .title {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    .menu li a {
+       font-size: 15px;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .rectangle-project {
+        padding: 20px;
+    }
+    .frame .text {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 1367px) {
+    nav {
+        padding: 19px 160px;
+    }
+    #home {
+        padding: 0 136px 0 160px;
+    }
+    section {
+        padding: 0 160px;
+    }
+    #contact {
+        padding: 0 270px 0 160px;
+    }
+    footer {
+        padding: 0 160px;
+    }
+}
+@media screen and (max-width: 1350px) {
+    nav {
+        padding: 19px 115px;
+    }
+    #home {
+        padding: 0 100px 0 110px;
+    }
+    #contact {
+        padding: 2px 170px 0 110px;
+    }
+    footer {
+        padding: 0 110px;
+    }
+    #about .five-experience .five {
+        font-size: 70px;
+    }
+    .service .frame-2 {
+        padding: 70px 15px;
+    }
+    .service .frame-2 img {
+       width: 35px;
+    }
+    .service .frame-2 .small-title {
+        font-size: 20px;
+    }
+    section {
+        padding: 0 110px;
+    }
+    .rectangle {
+        top: 644px;
+    }
+    #about {
+        margin-top: 40px;
+    }
+    #home .hello {
+        font-size: 26px;
+    }
+    #home h1 {
+        line-height: 50px;
+        font-size: 35px;
+    }
+    #home .about-me-button {
+        margin-top: 20px;
+    }
+    .frame .column img {
+       width: 35px;
+    }
+    .frame .text {
+        font-size: 22px;
+    }
+    .frame .column {
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 1230px) {
+    #home .epilise {
+        width: 400px;
+        height: 400px;
+    }
+    #home .my-profil img {
+        width: 360px;
+        height: 360px;
+    }
+    .rectangle {
+        top: 560px;
+    }
+}
+@media screen and (max-width: 1115px)  {
+    #home .epilise {
+        width: 360px;
+        height: 360px;
+    }
+    #home .my-profil img {
+        width: 310px;
+        height: 310px;
+    }
+    #home .epilise {
+        top: 90px;
+    }
+}
+@media screen and (max-width: 1080px) {
+    #home {
+        padding: 0 60px 0 80px;
+    }
+    nav {
+        padding: 19px 80px;
+    }
+    section {
+        padding: 0 65px;
+    }
+    #contact {
+        padding: 0 110px 0 65px;
+    }
+    footer {
+        padding: 0 65px;
+    }
+}
+@media screen and (max-width: 992px) {
+    #home {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+    }
+    #home .button {
+        display: flex!important;
+        justify-content: center!important;
+    }
+    .frame {
+        grid-template-columns: 1fr 1fr;
+    }
+    .service .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .rectangle-project {
+        padding: 10px;
+    }
+    .rectangle-project .button {
+        gap: 5px
+    }
+
+    .toggle {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        z-index: 20;
+    }
+
+    .ouvrir {
+        display: block;
+    }
+    .fermer {
+        display: none;
+    }
+    .open .ouvrir {
+        display: none;
+    }
+    .open .fermer {
+        display: block;
+    }
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 20vh;
+        background: #181824;
+        flex-direction: row;
+        padding: 2rem;
+        justify-content: space-around;
+        transform: translateX(-100%);
+        transition:transform 0.5s;
+    }
+    .open .menu{
+        transform: translateX(0);
+    }
+    nav {
+        padding: 19px 80px!important;
+    }
+    nav .logo img{
+        width: 100px;
+    }
+    nav .toggle img{
+        width: 20px;
+    }
+    footer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    footer .liste {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .rectangle {
+        top: 780px;
+    }
+    .my-profil {
+        position: relative;
+        left: 44px;
+    }
+}
+@media screen and (max-width: 789px) {
+    .my-project {
+        grid-template-columns: 1fr;
+    }
+    #contact {
+        top: 358px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact-me {
+        width: 100%;
+    }
+    nav .name {
+        font-size: 25px;
+    }
+    .rectangle-project {
+        padding: 20px;
+    }
+    .rectangle-project .button {
+        gap: 20px
+    }
+    #about .five-experience p {
+        font-size: 24px;
+        line-height: 20px;
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 650px) {
+    .frame {
+        grid-template-columns: 1fr;
+    }
+    .service .grid {
+        grid-template-columns: 1fr;
+    }
+    #home .presentation p {
+        width: auto;
+    }
+    .service .frame-2 {
+        padding: 35px 15px;
+        height: 230px;
+    }
+    #home .about-me-button {
+        padding: 11px 25px;
+    }
+}
+@media screen and (max-width: 576px) {
+    nav {
+        padding: 14px 14px!important;
+    }
+    #home {
+        padding: 0 14px 0 14px;
+    }
+    #contact {
+        padding: 0 14px 0 14px;
+    }
+    footer {
+        padding: 0 14px;
+    }
+    footer {
+        top: 400px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    #home .about-me-button {
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+    }
+    #home .epilise {
+        width: 310px;
+        height: 310px;
+    }
+    #home .my-profil img {
+        width: 280px;
+        height: 280px;
+    }
+    .rectangle {
+        top: 732px;
+    }
+    section {
+        padding: 0 14px;
+    }
+    #home .my-profil {
+       position: relative;
+       left: 52px;
+       top: -20px;
+    }
+    .rectangle {
+        height: 110px;
+    }
+    p {
+        color: #FFFFFF;
+    }
+    .service .grid {
+       gap: 0;
+    }
+    .service .frame-2 {
+        margin-top: 10px;
+    }
+    .my-project {
+        gap: 0;
+    }
+    .rectangle-project {
+        margin-top: 10px;
+    }
+    .rectangle-project .btn1, .btn2 {
+        width: 48%;
+    }
+    #home .hello {
+        color: #FFFFFF!important;
+    }
+    #about .five-experience p {
+        margin-left: 10px!important;
+    }
+    .frame {
+        gap: 0;
+    }
+    .frame .column {
+        margin-top: 10px!important;
+        height: 220px;
+    }
+    .frame .text {
+        font-size: 20px;
+    }
+    .contact-me .text {
+        color: #FFFFFF!important;
+    }
+    #home .about-me-button {
+        padding: 12px 18px;
+        gap:0;
+    }
+}
+@media screen and (max-width: 458px) {
+    .rectangle {
+    }
+    a {
+        font-size: 12px!important;
+    }
+    #home a {
+        font-size: 14px!important;
+    }
+    p {
+        font-size: 12px!important;
+    }
+    #about {
+        margin-top: 0;
+    }
+    #home .epilise {
+        width: 260px;
+        height: 260px;
+    }
+    #home .my-profil img {
+        width: 230px;
+        height: 230px;
+    }
+    .rectangle {
+        top: 680px;
+        height: 90px;
+    }
+    #about .five-experience {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #about .five-experience p {
+        margin-left: 0!important;
+    }
+    #about .five-experience .five {
+        line-height: 100px;
+    }
+    #home .about-me-button img {
+        width: 20px;
+    }
+}
+@media screen and (max-width: 390px) {
+    #home .button {
+        display: flex!important;
+        flex-direction: column;
+    }
+    .rectangle {
+        top: 768px;
+        height: 90px;
+    }
+    #home .about-me-button {
+        width: 50%;
+        padding: 12px 20px;
+    }
+}
+@media screen and (max-width: 376px) {
+    #home .epilise {
+       background: none;
+       right: 0;
+    }
+    #home .my-profil img {
+        width: 186px;
+        height: 186px;
+        right: 38px;
+        background: #7562E0;
+        border-radius: 100%;
+    }
+    #home .my-profil {
+        left: 0;
+        top: 0px;
+    }
+    .rectangle {
+       background: none;
+    }
+    #about .five-experience {
+        display: flex;
+        align-items: center;
+        gap: 0;
+    }
+    #home {
+        gap: 0;
+    }
+    #about {
+        margin-top: -115px;
+    }
+    #home h1 {
+        line-height: 28px;
+        font-size: 24px;
+    }
+    #home .hello {
+        font-size: 21px;
+        line-height: 35px;
+    }
+}
+@media screen and (max-width: 302px) {
+    #home .about-me-button {
+        padding: 12px 8px;
+    }
+    nav .name {
+        font-size: 20px;
+    }
+    .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #about .five-experience .five {
+        font-size: 55px;
+    }
+    .menu {
+        padding: 1rem;
+    }
+    #home .my-profil img {
+        width: 150px;
+        height: 150px;
+        right: 60px;
+    }
+}
+@media screen and (max-width: 280px)  {
+    #home .epilise {
+        width: 230px;
+        height: 228px;
+    }
+    #home .my-profil img {
+        right: 40px;
+    }
+    .frame .text {
+        font-size: 13px;
+    }
+    .frame .column img {
+        width: 25px;
+    }
+    .frame .column {
+        margin-top: 10px!important;
+        height: 170px;
+    }
+    .title {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .service .frame-2 .small-title-2 {
+        font-size: 13px;
+    }
+    .service .frame-2 .small-title-1 {
+        font-size: 13px;
+        line-height: 28px;
+    }
+    .frame .text {
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 262px) {
+    #home h1 {
+        line-height: 25px;
+        font-size: 20px;
+    }
+    #home .hello {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    #home .about-me-button {
+        padding: 5px 5px;
+    }
+    #home .about-me-button img {
+        width: 18px;
+    }
+    #home .epilise {
+        width: 200px;
+        height: 220px;
+    }
+    #home .my-profil img {
+        right: 25px;
+    }
+}
+@media screen and (max-width: 250px) {
+    #home a {
+        font-size: 12px!important;
+    }
+}
