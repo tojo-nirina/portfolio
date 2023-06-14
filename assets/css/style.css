@@ -579,14 +579,13 @@ footer a:hover {
     .rectangle-project .button {
         gap: 5px
     }
-
+    /*******toggle******/
     .toggle {
         display: block;
         cursor: pointer;
         position: relative;
         z-index: 20;
     }
-
     .ouvrir {
         display: block;
     }
